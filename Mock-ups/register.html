@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Регистрация</title>
+
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="register.css" rel="stylesheet">
+  </head>
+
+  <body class="text-center">
+    <h1 class="h1 mb-3 font-weight-bold">Подготовка за успешна матура по математика</h1>
+    <form class="register">
+      <img class="mb-4" src="./maths.jpg" alt="maths" width="80" height="80">
+      <h2 class="h3 mb-3 font-weight-normal">Регистрация</h2>
+       <label for="name" class="sr-only">Име</label>
+      <input type="text" id="name" class="field" placeholder="Име" required autofocus>
+      <label for="email" class="sr-only">Email</label>
+      <input type="email" id="email" class="field" placeholder="Email" required>
+      <label for="password" class="sr-only">Парола</label>
+      <input type="password" id="password" class="field" placeholder="Парола" required>
+      <label class="radio-inline"><input type="radio" name="radio" id="radio">Безплатен пакет</label>
+      <label class="radio-inline"><input type="radio" name="radio" id="radio">Премиум пакет</label>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Регистрация</button>
+    </form>
+  </body>
+</html>

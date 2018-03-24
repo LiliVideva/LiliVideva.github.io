@@ -1,0 +1,69 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  display: block;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #fff8dc;
+}
+
+h1{
+  font-style: italic;
+  padding-bottom: 40px;
+}
+
+img{
+   border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.register {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.register .field {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.register .field:focus {
+  z-index: 2;
+}
+.register #name, #email{
+  margin-bottom: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  width:100%;
+}
+
+.register #password {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  width:100%;
+}
+
+.register #radio {
+  margin: 0 5px 0 5px;
+}
+.button{
+  width:60%;
+}

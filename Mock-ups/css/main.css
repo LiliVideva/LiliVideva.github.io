@@ -1,0 +1,122 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  display: block;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 0px;
+  padding-bottom: 40px;
+  background-color: #e6e6e6;
+}
+
+form {
+  float:right;
+}
+
+h1{
+  font-style: italic;
+  padding-bottom: 40px;
+}
+
+#logout{
+  border-radius: 10px;
+}
+
+.navbar{
+  margin-bottom: 0;
+}
+
+#indexImage1{
+  position: relative;
+  width:100%;
+  height:60%;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    margin-top: 40px;
+    position: fixed;
+     color: #3b7991;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    transition: 0.3s;
+     border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px 0 20px 20px;
+}
+
+.marketing{
+  margin-top: 20px;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing h2 {
+  font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.footerHeading{
+  text-align: center;
+}
+
+.theoryOptions{
+  width:250px;
+  float:right;
+}
+

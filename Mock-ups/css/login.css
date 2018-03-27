@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
   height: 100%;
 }
 
@@ -16,7 +15,7 @@ body {
   justify-content: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #fff8dc;
+  background-color: #e6e6e6;
 }
 
 h1{
@@ -25,16 +24,16 @@ h1{
 }
 
 img{
-   border: 1px solid #ddd;
   border-radius: 10px;
 }
 
 .register {
-  max-width: 300px;
+  max-width: 330px;
   padding: 15px;
-  margin: 0 auto;
+  margin: 30px auto;
   border: 1px solid black;
   border-radius: 10px;
+    background-color:  #f2f2f2;
 }
 
 .register .field {
@@ -44,9 +43,11 @@ img{
   padding: 10px;
   font-size: 16px;
 }
+
 .register .field:focus {
   z-index: 2;
 }
+
 .register #name {
   margin-bottom: -1px;
   border-top-left-radius: 0;
@@ -63,4 +64,22 @@ img{
 
 .button{
   width:60%;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing h2 {
+  font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.footerHeading{
+  text-align: center;
 }

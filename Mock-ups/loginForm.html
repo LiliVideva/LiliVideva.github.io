@@ -2,20 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="FMI - project">
+    <meta name="author" content="Lilyana - 61887, Eva - 61940">
 
-    <title>Регистрация</title>
+    <title>Математика за матура</title>
 
     <link href="./css/bootstrap.min.css" rel="stylesheet">
-    <link href="./css/register.css" rel="stylesheet">
+    <link href="./css/loginForm.css" rel="stylesheet">
   </head>
 
   <body class="text-center">
 
     <header>
 
-      <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
+     <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
 
-        <a class="navbar-brand" href="#">Математика за матура</a>
+        <a class="navbar-brand" href="./index.html">Математика за матура</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -28,7 +32,7 @@
               <a class="nav-link" href="./index.html">Начало<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Дялове на математиката
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -40,12 +44,12 @@
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Задачи без решения</a>
+              <a class="nav-link disabled">Задачи без решения</a>
             </li>
           </ul>
 
           <form class="form-inline my-2 my-lg-0">
-            <a class="nav-link" href="./login.html"><img src="./images/loginIcon.png" width="30" height="30"/></a>
+            <a class="nav-link" href="./loginForm.html"><img src="./images/loginIcon.png" width="30" height="30"/></a>
           </form>
 
         </div>
@@ -55,28 +59,22 @@
     </header>
 
     <main role="main">
-
+  
       <form class="register" method="post">
 
         <img class="mb-4" src="./images/maths.jpg" alt="maths" width="80" height="80">
 
-        <h2 class="h3 mb-3 font-weight-normal">Регистрация</h2>
+        <h2 class="h3 mb-3 font-weight-normal">Вписване</h2>
 
         <label for="name" class="sr-only">Име</label>
         <input type="text" id="name" class="field" placeholder="Име" required autofocus>
 
-        <label for="email" class="sr-only">Email</label>
-        <input type="email" id="email" class="field" placeholder="Email" required>
-
         <label for="password" class="sr-only">Парола</label>
         <input type="password" id="password" class="field" placeholder="Парола" required>
 
-        <label class="radio-inline"><input type="radio" name="radio" id="radio">Безплатен пакет</label>
-        <label class="radio-inline"><input type="radio" name="radio" id="radio">Премиум пакет</label>
+        <button class="btn btn-lg btn-primary btn-block" type="submit" onclick="window.location.href = 'mainPage.html' ">Вписване</button>
 
-        <button class="btn btn-lg btn-primary btn-block" type="submit" onclick="window.location.href = 'login.html' ">Регистрация</button>
-
-        <a href="./login.html">Вече сте регистриран?</a>
+        <a href="./registrationForm.html">Нямате регистрация все още?</a>
 
       </form>
 
@@ -88,21 +86,21 @@
             <img class="rounded-circle" src="./images/indexImage1.jpg" alt="Generic placeholder image" width="140" height="140">
             <h2>ДЗИ 2 - Математика</h2>
             <p>Искаш да се подготвиш добре по математика за матурата? Регистрирай се сега и започни да решаваш задачи!</p>
-            <p><a class="btn btn-secondary" href="./register.html" role="button">Детайли &raquo;</a></p>
+            <p><a class="btn btn-secondary" href="./registrationForm.html" role="button">Детайли &raquo;</a></p>
           </div>
 
           <div class="col-lg-4">
             <img class="rounded-circle" src="./images/indexImage2.jpg" alt="Generic placeholder image" width="140" height="140">
             <h2>Първи стъпки</h2>
-            <p>Най- лесният и удобен начин за подготовка е чрез систематично минаване през материала. Именно тук можеш да откриеш задачите подредени по дялове и трудност!</p>
-            <p><a class="btn btn-secondary" href="#" role="button">Детайли &raquo;</a></p>
+            <p>Най-лесният и удобен начин за подготовка е чрез систематично минаване през материала. Именно тук можеш да откриеш задачите подредени по дялове и трудност!</p>
+            <p><a class="btn btn-secondary" href="./index.html" role="button">Детайли &raquo;</a></p>
           </div>
 
           <div class="col-lg-4">
             <img class="rounded-circle" src="./images/indexImage3.jpg" alt="Generic placeholder image" width="140" height="140">
             <h2>Главоблъсканици</h2>
             <p>Секцията "Задачи без решения" предоставя възможност на регистрираните потребители да предизвикват себе си с малко по интересни задачи по материала.</p>
-            <p><a class="btn btn-secondary" href="./login.html" role="button">Детайли &raquo;</a></p>
+            <p><a class="btn btn-secondary" href="./loginForm.html" role="button">Детайли &raquo;</a></p>
           </div>
 
         </div>
@@ -118,17 +116,6 @@
       <script src="../../../../assets/js/vendor/popper.min.js"></script>
       <script src="./js/bootstrap.min.js"></script>
       <script src="../../../../assets/js/vendor/holder.min.js"></script>
-      <script>
-        function openNav() {
-            document.getElementById("mySidenav").style.width = "250px";
-            document.getElementById("main").style.marginLeft = "250px";
-        }
-
-        function closeNav() {
-            document.getElementById("mySidenav").style.width = "0";
-            document.getElementById("main").style.marginLeft = "0";
-        }
-      </script>
 
     </main>
 

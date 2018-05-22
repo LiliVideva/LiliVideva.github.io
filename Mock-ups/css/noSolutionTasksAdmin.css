@@ -74,52 +74,79 @@ h1{
 margin-top: 80px;
 }
 
-#task{
-    padding: 4px 10px; 
+#main h2{
+  margin: 10px 20px;
+  display: inline;
+}
+
+.search-container {
+  overflow: hidden;
+  float: right;
+  margin-bottom:10px;
+}
+
+.search-container input[type=text] {
+  padding: 6px;
+  margin-top: 10px;
+  font-size: 17px;
+  border:1px solid black;
+}
+
+.search-container button {
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+  font-size: 17px;
+  border:none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .search-container {
+    float: none;
+  }
+  .search-container input[type=text], .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .search-container input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+.task { 
+  padding: 4px 10px; 
   background-color: #fff; 
   box-shadow: 0px 3px 5px 0px #aaa; 
   border-radius: 0px; 
   position: relative;
   margin: 10px 20px 0 20px;
-}
-
-#timer{
-  float:right;
-  font-size: 35px;
-}
-
-#task pre{
-  font-size: 20px;
-  text-align: left;
   clear:both;
+  height: 100px;
 }
 
-.theoryOptions{
-  float: left;
-  width:80%;
+.task h3{
   display: inline;
 }
 
-#correctAnswer, #correctTheory{
-  color:green;
+.modify {
+  float:right;
+  display: inline;
 }
 
-#wrongAnswer, #wrongTheory{
-  color:red;
+.btn-primary {
+  margin-top: 10px;
+  float:right;
+  clear: both;
 }
 
-#help, #solve{
-  float: left;
-  margin-right: 5px;
-  color: white;
-}
-
-#check,#submit, #back{
-  color:white;
-}
-
-#pitTheorem{
-  color:orange;
+.btn-success {
+  margin: 10px;
+  float:right;
 }
 
 .marketing{

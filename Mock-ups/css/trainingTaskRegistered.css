@@ -74,14 +74,71 @@ h1{
 margin-top: 80px;
 }
 
-.thumbnail { 
-  padding: 4px 10px; 
+#task{
+    padding: 4px 10px; 
   background-color: #fff; 
   box-shadow: 0px 3px 5px 0px #aaa; 
   border-radius: 0px; 
   position: relative;
   margin: 10px 20px 0 20px;
-   clear:both;
+}
+
+#premium {
+  float:right;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  color: blue;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#task h2 {
+  display: inline;
+}
+
+#task h3{
+  clear: both;
+}
+
+#timer{
+  float:right;
+  font-size: 35px;
+}
+
+#task pre{
+  font-size: 20px;
+  text-align: left;
+  clear:both;
+}
+
+.theoryOptions{
+  float: left;
+  width:80%;
+  display: inline;
+}
+
+#correctAnswer, #correctTheory{
+  color:green;
+}
+
+#wrongAnswer, #wrongTheory{
+  color:red;
+}
+
+#help, #solve{
+  float: left;
+  margin-right: 5px;
+  color: white;
+}
+
+#check,#submit, #back{
+  margin-top: 10px;
+  color:white;
+}
+
+#pitTheorem{
+  color:orange;
 }
 
 .marketing{

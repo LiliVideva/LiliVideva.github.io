@@ -83,6 +83,24 @@ margin-top: 80px;
   margin: 10px 20px 0 20px;
 }
 
+#premium {
+  float:right;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  color: blue;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#task h2 {
+  display: inline;
+}
+
+#task h3{
+  clear: both;
+}
+
 #timer{
   float:right;
   font-size: 35px;
@@ -110,11 +128,12 @@ margin-top: 80px;
 
 #help, #solve{
   float: left;
-  margin-right: 5px;
+  margin: 10px;
   color: white;
 }
 
-#check,#submit, #back{
+#check, #submit, #back{
+  margin: 10px;
   color:white;
 }
 
@@ -143,4 +162,10 @@ margin-top: 80px;
 
 .footerHeading{
   text-align: center;
+}
+
+.modify {
+  float:right;
+  display: inline;
+  clear: both;
 }

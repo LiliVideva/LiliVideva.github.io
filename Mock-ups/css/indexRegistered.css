@@ -24,6 +24,7 @@ form {
 
 h1{
   font-style: italic;
+  font-weight: bold;
   padding-bottom: 40px;
 }
 
@@ -47,7 +48,8 @@ h1{
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
-  color: black;
+  font-weight: bold;
+  color:#ff0066;
   text-shadow: 2px 2px 8px #FFFFFF;
 }
 

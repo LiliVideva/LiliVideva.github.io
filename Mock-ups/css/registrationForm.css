@@ -63,7 +63,7 @@ img{
   width:100%;
 }
 
-.register #password {
+.register #password, .register #repeatPassword {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;

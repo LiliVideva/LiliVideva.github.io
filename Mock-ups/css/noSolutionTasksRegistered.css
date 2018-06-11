@@ -79,45 +79,6 @@ margin-top: 80px;
   display: inline;
 }
 
-.search-container {
-  overflow: hidden;
-  float: right;
-  margin-bottom:10px;
-}
-
-.search-container input[type=text] {
-  padding: 6px;
-  margin-top: 10px;
-  font-size: 17px;
-  border:1px solid black;
-}
-
-.search-container button {
-  float: right;
-  margin-top: 10px;
-  margin-right: 20px;
-  font-size: 17px;
-  border:none;
-  cursor: pointer;
-}
-
-@media screen and (max-width: 600px) {
-  .search-container {
-    float: none;
-  }
-  .search-container input[type=text], .search-container button {
-    float: none;
-    display: block;
-    text-align: left;
-    width: 100%;
-    margin: 0;
-    padding: 14px;
-  }
-  .search-container input[type=text] {
-    border: 1px solid #ccc;  
-  }
-}
-
 .thumbnail { 
   padding: 4px 10px; 
   background-color: #fff; 
